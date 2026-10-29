@@ -79,7 +79,7 @@ export default function AboutSection() {
               { label: 'Mechanical Design & CAD',     sub: 'SolidWorks · Onshape · Fusion 360' },
               { label: 'Embedded Systems & Firmware', sub: 'C / C++ · ESP32 · STM32 · FreeRTOS' },
               { label: 'PCB Design & Electronics',    sub: 'KiCad · 4- and 6-layer boards · Mixed-signal' },
-              { label: 'Web & Mobile Development',    sub: 'React · React Native · REST APIs' },
+              { label: 'Web Development',             sub: 'React · JavaScript · REST APIs' },
               { label: '3D Printing & Fabrication',   sub: 'FDM · Calibration · End-to-end' },
             ].map(({ label, sub }) => (
               <div key={label} style={{ display: 'flex', alignItems: 'flex-start', gap: 14, marginBottom: 20, paddingBottom: 20, borderBottom: '1px solid var(--border)' }}>
